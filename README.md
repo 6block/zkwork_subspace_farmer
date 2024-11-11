@@ -12,7 +12,7 @@ A git repository for ZKWork Subspace farmer release versions
 * Discord Group :  https://discord.com/invite/pKufwyjGFF
 * Twitter : https://x.com/ZKWorkHQ
 
-## We are on mainnet with official version `mainnet-2024-nov-05`
+## We are on mainnet with official version `mainnet-2024-nov-06`
 
 ## Requirements
 - OS Version: Ubuntu 22.04 +
@@ -54,7 +54,7 @@ The time spent on plotting one sector.
 ### 1. Choose and download the corresponding version on release page
 
 ### 2. Unzip
-    tar zxvf <YOUR DIR>/zkwork-mainnet-2024-nov-05.tar.gz
+    tar zxvf <YOUR DIR>/zkwork-mainnet-2024-nov-06.tar.gz
 
 ### 3. Start local node
 
