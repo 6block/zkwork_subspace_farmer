@@ -77,7 +77,10 @@ The time spent on plotting one sector.
 
 #### 4.1 Farmering on single machine
     1. start farmer in one command:
-     ./subspace-farmer farm --reward-address <YOUR_REWARD_ADDRESS> --node-rpc-url ws://<NODE_IP>:30003 --custom-name <YOUR_NAME> path=<FARMER_DATA_PATH>,size=<SIZE> --cuda-gpus 0,1
+     ./subspace-farmer farm --account <YOUR_API_TOKEN> --node-rpc-url ws://<NODE_IP>:30003 --custom-name <YOUR_NAME> path=<FARMER_DATA_PATH>,size=<SIZE> --cuda-gpus 0,1
+
+     The <SIZE> can be a little smaller than the free size of the <FARMER_DATA_PATH>.
+     The <YOUR_API_TOKEN> can be got from: https://zk.work/en/login.
 
 #### 4.2 Farmering on cluster
    Notes: farming cluster and subspace local node need be started within the same intranet.
