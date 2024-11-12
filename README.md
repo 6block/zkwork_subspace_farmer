@@ -78,6 +78,7 @@ The time spent on plotting one sector.
 
    ##### 4.2.1 instatll and start NATS server
    Before start farming cluster, the NATS.io shoule be started fristly:
+
       https://docs.autonomys.xyz/farming/advanced-cli/cluster/#core-messaging-technology-natsio
 
    ##### 4.2.2 start farming cluster
@@ -92,9 +93,10 @@ The time spent on plotting one sector.
      200 GB is a good size to use for cache based on the current state of Mainnet.
 
     3.  start Farmer
-     ./subspace-farmer cluster --nats-server nats://<NATS_IP>:4222 farmer --reward-address <YOUR_REWARD_ADDRESS> --custom-name <YOUR_NAME> path=<FARMER_DATA_PATH>,size=<SIZE>
+     ./subspace-farmer cluster --nats-server nats://<NATS_IP>:4222 farmer --account <YOUR_API_TOKEN> --custom-name <YOUR_NAME> path=<FARMER_DATA_PATH>,size=<SIZE>
 
      The <SIZE> can be a little smaller than the free size of the <FARMER_DATA_PATH>.
+     The <YOUR_API_TOKEN> can be got from: https://zk.work/en/register.
 
     4. start Plotter
      ./subspace-farmer cluster --nats-server nats://<NATS_IP>:4222 plotter --cuda-gpus 0,1
