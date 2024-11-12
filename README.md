@@ -1,6 +1,12 @@
 # ZKWork Subspace farmer
 
 
+## login and get API Token
+```shell
+https://zk.work/en/login
+```
+The API Token is start with "zkwork", like zkworkxxxx.
+
 ## zkwork pool address
 ```shell
 pool_address=ai3.asia.zk.work:10020
@@ -79,7 +85,7 @@ The time spent on plotting one sector.
    ##### 4.2.1 instatll and start NATS server
    Before start farming cluster, the NATS.io shoule be started fristly:
 
-      https://docs.autonomys.xyz/farming/advanced-cli/cluster/#core-messaging-technology-natsio
+   https://docs.autonomys.xyz/farming/advanced-cli/cluster/#core-messaging-technology-natsio
 
    ##### 4.2.2 start farming cluster
    The cluster consists of four distinct components, and they should be started in the following order.
@@ -96,7 +102,7 @@ The time spent on plotting one sector.
      ./subspace-farmer cluster --nats-server nats://<NATS_IP>:4222 farmer --account <YOUR_API_TOKEN> --custom-name <YOUR_NAME> path=<FARMER_DATA_PATH>,size=<SIZE>
 
      The <SIZE> can be a little smaller than the free size of the <FARMER_DATA_PATH>.
-     The <YOUR_API_TOKEN> can be got from: https://zk.work/en/register.
+     The <YOUR_API_TOKEN> can be got from: https://zk.work/en/login.
 
     4. start Plotter
      ./subspace-farmer cluster --nats-server nats://<NATS_IP>:4222 plotter --cuda-gpus 0,1
