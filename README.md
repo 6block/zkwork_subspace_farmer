@@ -102,10 +102,10 @@ The time spent on plotting one sector.
    The cluster consists of four distinct components, and they should be started in the following order.
 
     1. start Controller
-     ./subspace-farmer cluster --nats-server nats://<NATS_IP>:4222 controller --base-path <FARMER_DATA_PATH> --node-rpc-url ws://<NODE_IP>:30003
+     ./subspace-farmer cluster --nats-server nats://<NATS_IP>:4222 controller --base-path <CONTROLLER_PATH> --node-rpc-url ws://<NODE_IP>:30003
 
     2. start Cache
-     ./subspace-farmer cluster --nats-server nats://<NATS_IP>:4222 cache path=<FARMER_DATA_PATH>,size=<SIZE>
+     ./subspace-farmer cluster --nats-server nats://<NATS_IP>:4222 cache path=<CACHE_PATH>,size=<SIZE>
 
      200 GB is a good size to use for cache based on the current state of Mainnet.
 
