@@ -38,6 +38,14 @@ The time spent on plotting one sector.
    </td>
   </tr>
   <tr>
+   <td>NVIDIA GeForce RTX 4090
+   </td>
+   <td>1.9s
+   </td>
+   <td>6.5s
+   </td>
+  </tr>
+  <tr>
    <td>NVIDIA GeForce RTX 3090
    </td>
    <td>2.85s
