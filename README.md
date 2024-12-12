@@ -2,7 +2,7 @@
 `Subspace-node` and `Subspace-farmer` software for farming on Autonomys mainnet.
 
 ## Latest version
-`zkwork-mainnet-2024-nov-18`
+`zkwork-mainnet-2024-nov-28`
 
 ## Requirements
 - OS Version: Ubuntu 22.04 +
@@ -55,9 +55,10 @@ To better support internal assets transfer feature, our farmer only supports to 
 
 ### 2. Download the lateset version on release page
 
+using cuda version for example:
 ```
-wget https://github.com/6block/zkwork_subspace_farmer/releases/download/zkwork-mainnet-2024-nov-18/zkwork-mainnet-2024-nov-18.tar.gz
-tar -zvxf zkwork-mainnet-2024-nov-18.tar.gz
+wget https://github.com/6block/zkwork_subspace_farmer/releases/download/zkwork-mainnet-2024-nov-18/zkwork-mainnet-2024-nov-28-cuda.tar.gz
+tar -zvxf zkwork-mainnet-2024-nov-28-cuda.tar.gz
 ```
 
 ### 3. Get Subspace-node ready
